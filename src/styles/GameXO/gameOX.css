@@ -76,3 +76,15 @@ ol, ul {
     max-height: 250px;
     overflow: auto;
 }
+
+.square-x{
+    color: red;
+}
+
+.square-o{
+    color: blue;
+}
+
+.square-win{
+    background: green;
+}

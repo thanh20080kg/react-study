@@ -1,7 +1,7 @@
 import {lazy} from "react";
 
 export default {
-    path: "/gamexo",
+    path: "/",
     exact: true,
     public: true,
     component: lazy(() => import(".")),

@@ -32,7 +32,7 @@ export default class Board extends React.Component {
 
 function Square(props) {
     return (
-        <button className="square" onClick={props.onClick}>
+        <button className={"square " + (props.value === "X" ? "square-x" : "square-o")} onClick={props.onClick}>
             {props.value}
         </button>
     );
